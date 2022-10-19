@@ -1,0 +1,10 @@
+For Dependency Injection and State management we have a riverpod.
+It is basically rewrite of the provider code.
+hooks_riverpod which allows us to use riverpod with flutter hooks package.
+
+riverpod is useful in DI and Statemanagemnet in Dart.
+So, flutter_riverpod is used for flutter.
+
+HElps in compile time errors not in runtime errors. Convert runtime error in compile time.
+
+In riverpod max use the staless widgets

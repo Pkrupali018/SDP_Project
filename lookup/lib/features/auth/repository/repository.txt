@@ -1,0 +1,1 @@
+This folder containt the code for firebase firestor and firebase authantication with firebase and all the backend stuff.

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "532415976358",
+    "project_id": "lookup-d9660",
+    "storage_bucket": "lookup-d9660.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532415976358:android:cf3ce05176861f11abb567",
+        "android_client_info": {
+          "package_name": "com.example.lookup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532415976358-3rj524f8okskdgo3gl0ugapejvl5dso9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdvdAtRearPxpMwYRL6nhBEtKtJUtjszw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532415976358-3rj524f8okskdgo3gl0ugapejvl5dso9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "532415976358-vp5u4vj788rvb9e177qng9cam8hl5cql.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.lookup"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

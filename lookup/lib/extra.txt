@@ -1,0 +1,8 @@
+Whenever we can add any dependancy or change pubspack.yaml file then restart the project.
+
+Future:
+Two app devices when one device is off then show up on the others chat screen that user goes offline.
+If we use future for it. it wan't be posible bcz we have to send some request to get some data that's how future works.
+
+Stream:
+So we can use stream, In stream It will continuosly give us the data.

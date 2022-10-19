@@ -1,0 +1,3 @@
+Get some data from the screen to this controller.
+Basically whatever data we have in screen it will go to this controller then this controller do any 
+input formating that it wants to do and then send this data to the repository class.
