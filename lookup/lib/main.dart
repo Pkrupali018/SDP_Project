@@ -67,7 +67,10 @@ class MyApp extends ConsumerWidget {
         error: (err, trace){
           return ErrorScreen(error: err.toString());
         },
-        loading: () => const Loader()),
+        loading: () => const Loader()
+      ),
+
     );
+
   }
 }

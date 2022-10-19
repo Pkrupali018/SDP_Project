@@ -5,7 +5,7 @@ import 'package:lookup/common/widgets/loader.dart';
 import 'package:lookup/features/chat/controller/chat_controller.dart';
 import 'package:lookup/models/chat_contact.dart';
 // import 'package:whatsappclone/colors.dart';
-// import '../../../info.dart';
+import '../../../info.dart';
 import '../screens/mobile_chat_screen.dart';
 
 class ContactsList extends ConsumerWidget {
@@ -28,12 +28,14 @@ class ContactsList extends ConsumerWidget {
                 }
                 print(snapshot.data?.length);
 
+                var documents;
                 return ListView.builder(
                   //Does not give errors in future.
                   shrinkWrap: true,
-                  // itemCount: info.length,
-                  itemCount: snapshot.data!.length,
+                  itemCount: info.length,
+                  // itemCount: snapshot.data!.length,
                   itemBuilder: (context, index){
+                    print(index);
                     var chatContactData = snapshot.data![index];
                     // InkWelll make a clickable onTap
                     return Column(

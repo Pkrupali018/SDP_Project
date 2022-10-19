@@ -84,6 +84,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                     width: size.width*0.75,
                     child: TextField(
                       controller: phoneController,
+                      keyboardType: TextInputType.number,
                       decoration: const InputDecoration(
                         hintText: 'phone number',
                       ),
