@@ -155,4 +155,10 @@ class AuthRepository{
       ),
     ); // Here, we can use the short hand property for converting to USrModel
   }
+
+  void setUserState(bool isOnline) async{
+    await firestore.collection('users').doc(auth.currentUser!.uid).update({
+      'isOnline': isOnline,
+    });
+  }
 }

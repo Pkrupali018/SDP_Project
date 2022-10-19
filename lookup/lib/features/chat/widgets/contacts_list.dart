@@ -5,8 +5,7 @@ import 'package:lookup/common/widgets/loader.dart';
 import 'package:lookup/features/chat/controller/chat_controller.dart';
 import 'package:lookup/models/chat_contact.dart';
 // import 'package:whatsappclone/colors.dart';
-
-import '../../../info.dart';
+// import '../../../info.dart';
 import '../screens/mobile_chat_screen.dart';
 
 class ContactsList extends ConsumerWidget {

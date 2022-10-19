@@ -26,6 +26,7 @@ class ChatRepository{
     required this.auth
   });
 
+  
   Stream<List<ChatContact>> getChatContacts() {
     return firebaseFirestore.collection('users').doc(auth.currentUser!.uid).collection('chats').
     snapshots().asyncMap((event) async{
